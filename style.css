@@ -100,11 +100,13 @@ body {
     color: #1F2937;
     text-align: center;
     gap: 8px;
+    align-items: center;
 }
 .info-content img {
+    width: 150px;
+    height: 150px;
     border: 4px solid #3882f6;
     border-radius: 8px;
-    filter: opacity(75%);
 }
 .quote-area {
     display: flex;
@@ -123,7 +125,7 @@ body {
 }
 .signup {
     display: flex;
-    padding: 10%;
+    padding: 12%;
 }
 .call {
     background-color: #3882f6;
@@ -132,5 +134,23 @@ body {
     justify-content: space-between;
     align-items: center;
     flex: 1;
+    padding: 32px 80px;
+    color: #f9faf8;
+}
+.call-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.call-button {
+    padding: 16px 24px;
+    border: 2px solid #f9faf8;
+    border-radius: 16px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
     padding: 32px;
 }
